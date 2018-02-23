@@ -1,10 +1,6 @@
 
 
-.container {
-  padding-top: 2px;
-  background-color: rgb(243, 242, 242);
-  border-radius: 25pt;
-  border-width: 2px;
+.login {  
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+   
+} 

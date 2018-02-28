@@ -15,10 +15,7 @@ import { AngularFireModule } from "angularfire2";
 import { AngularFireAuth } from "angularfire2/auth";
 
 import { MaterializeModule } from "angular2-materialize";
-import { Parallax } from './parallax/parallax.component';
-import { Collapsible } from './collapsible/collapsible.component';
-import { SideNav } from './side-nav/side-nav.component';
-import { DatepickerComponent } from './datepicker/datepicker.component';
+import { Parallax } from './componentes/parallax/parallax.component';
 
 export const firebaseConfig = {
 
@@ -37,9 +34,6 @@ export const firebaseConfig = {
     HomeComponent,
     LoginComponent,
     Parallax,
-    Collapsible,
-    SideNav,
-    DatepickerComponent    
   ],
   imports: [
     BrowserModule,

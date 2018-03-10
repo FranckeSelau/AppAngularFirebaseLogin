@@ -18,6 +18,8 @@ import { AngularFireAuth } from 'angularfire2/auth';
 })
 export class LoginComponent {
 
+  hide = true;
+  
   constructor(private loginService: LoginService) { }
 
   logOn(mail, password) {
